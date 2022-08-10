@@ -1,3 +1,5 @@
+![Hey Look, It's Dyer!](https://live.staticflickr.com/65535/51278950913_17e0f63c25_c_d.jpg)
+
 # Welcome
 
 This repository contains information relative to the logistics of running an Environmental Data Literacy course at the [Center for Environmental Studies](https://ces.vcu.edu) at [Virginia Commonwealth University](https://vcu.edu).
@@ -13,7 +15,7 @@ This repository contains information relative to the logistics of running an Env
  - Tidyverse
  - GGPlot2 
  - Design, Preparation, Analysis, and Interpretation of Analsyes Based Upon:
-    - `Categorical` or `Continuous`
+    - `Continuous`
     - `Categorical ~ f( Categorical )`
     - `Continuous ~ f( Categorical )`
     - `Continuous ~ f( Continuous )`
