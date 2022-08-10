@@ -1,6 +1,6 @@
 # Welcome
 
-This repository contains information relative to the logistics of running my Environmental Data Literacy course at Virginia Commonwealth University.
+This repository contains information relative to the logistics of running an Environmental Data Literacy course at the [Center for Environmental Studies](https://ces.vcu.edu) at [Virginia Commonwealth University](https://vcu.edu).
 
  
  ## Topics Covered
@@ -12,8 +12,8 @@ This repository contains information relative to the logistics of running my Env
  - Data Containers
  - Tidyverse
  - GGPlot2 
- - Development, Preparation, Analysis, and Interpretation of Data Types:
-    - Univariate
+ - Design, Preparation, Analysis, and Interpretation of Analsyes Based Upon:
+    - `Categorical` or `Continuous`
     - `Categorical ~ f( Categorical )`
     - `Continuous ~ f( Categorical )`
     - `Continuous ~ f( Continuous )`
