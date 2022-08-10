@@ -1,26 +1,35 @@
 ---
-title: "Welcome"
-format: revealjs
+title: "Environmental Data Literacy"
+subtitle: "&nbsp;"
+author: Rodney Dyer, PhD
+format: 
+  revealjs:
+    background-transition: fade
+    theme: default
+    logo: "media/ces_logo.png"
+    chalkboard: true
 editor: visual
-background-image: "https://images.unsplash.com/flagged/photo-1580139624070-910f651c1b78?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-background-opacity: 0.95
+title-slide-attributes: 
+  data-background-image: "media/contour.png"
+  data-background-position: "right"
+  data-background-size: initial
 ---
 
-## Quarto
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+## {background-color="black" background-image="https://live.staticflickr.com/65535/51278950913_17e0f63c25_c_d.jpg" background-size="fill"}
 
-## Bullets
+# Logistics {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
-When you click the **Render** button a document will be generated that includes:
+## What is this class {auto-animate=true}
 
--   Content authored with markdown
--   Output from executable code
+::: {layout="[[-1], [1], [-1]]"}
+![](media/MagrittePipe.jpg){fig-align="center"}
+:::
 
-## Code
+::: {.r-fit-text}
+It is not a pipe but oil paint on canvas.  Magritte encouraged the viewer to use their free mind to explore the logical shortcuts that human take and encourage alternative thinking.
+:::
 
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+# Schedule {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
-```{r}
-1 + 1
-```
+
