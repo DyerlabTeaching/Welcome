@@ -15,21 +15,79 @@ title-slide-attributes:
   data-background-size: initial
 ---
 
-
-## {background-color="black" background-image="https://live.staticflickr.com/65535/51278950913_17e0f63c25_c_d.jpg" background-size="fill"}
+##  {background-color="black" background-image="https://live.staticflickr.com/65535/51278950913_17e0f63c25_c_d.jpg" background-size="fill"}
 
 # Logistics {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
-## What is this class {auto-animate=true}
+## What is this class {auto-animate="true"}
 
 ::: {layout="[[-1], [1], [-1]]"}
 ![](media/MagrittePipe.jpg){fig-align="center"}
 :::
 
-::: {.r-fit-text}
-It is not a pipe but oil paint on canvas.  Magritte encouraged the viewer to use their free mind to explore the logical shortcuts that human take and encourage alternative thinking.
+::: {.r-fit-text .fragment .fade-in}
+It is not a pipe but oil paint on canvas.
+
+[René Magritte](https://en.wikipedia.org/wiki/The_Treachery_of_Images) was a surrealist painter that encouraged the viewer to use their free mind to explore the logical shortcuts that human take when viewing items and instead to encourage alternative thinking about what is in front of you.
 :::
 
 # Schedule {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
+
+## Sections in the Class 
+
+This class will have the following topic sections.
+
+::: {.fragment .fade-in-then-semi-out}
+1.  Logistics
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+  2.  R, Github, & Becoming a Data Ninja\
+:::
+
+::: {.fragment .fade-in-then-semi-out}
+  3.  One Variable Inferences\
+:::
+  
+::: {.fragment .fade-in-then-semi-out}
+  4.  Analyses of the form `Response ~ f(Predictor)`\
+:::
+
+::: {.fragment .fade-in}
+  5.  Spatial Data
+:::
+
+## Data Analysis
+
+
+## Why R? {.r-stretch}
+
+::: {layout="[[-1], [1], [-1]]"}
+![](media/Excel.png){fig-align="center"}
+:::
+
+
+## Slide Title {background-iframe="https://example.com"}
+
+
+# Today's Activities {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
+
+
+## To Do Right Now!
+
+
+::: {style="text-align: left; margin-top: 1em" .fragment .fade-in-then-semi-out}
+[Install R](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop.
+:::
+
+::: {style="text-align: left; margin-top: 1em" .fragment .fade-in-then-semi-out}
+[Install RStudio](https://https://www.rstudio.com/){preview-link="true" style="text-align: center"} onto your laptop.
+:::
+
+::: {style="text-align: left; margin-top: 1em" .fragment .fade-in-then-semi-out}
+[Install Packages](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop
+:::
+
+
 
 
