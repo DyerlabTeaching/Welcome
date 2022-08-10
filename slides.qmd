@@ -31,6 +31,24 @@ It is not a pipe but oil paint on canvas.
 [René Magritte](https://en.wikipedia.org/wiki/The_Treachery_of_Images) was a surrealist painter that encouraged the viewer to use their free mind to explore the logical shortcuts that human take when viewing items and instead to encourage alternative thinking about what is in front of you.
 :::
 
+
+## Data Analysis
+
+::: {layout="[[-1], [1], [-1]]"}
+![](media/geospatial_data.jpeg){fig-align="center"}
+:::
+
+
+
+## Why R? {.r-stretch}
+
+::: {layout="[[-1], [1], [-1]]"}
+![](media/Excel.png){fig-align="center"}
+:::
+
+
+
+
 # Schedule {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
 ## Sections in the Class 
@@ -57,17 +75,19 @@ This class will have the following topic sections.
   5.  Spatial Data
 :::
 
-## Data Analysis
-
-
-## Why R? {.r-stretch}
+## Homework And Interactions 
 
 ::: {layout="[[-1], [1], [-1]]"}
-![](media/Excel.png){fig-align="center"}
+![](media/github.png){fig-align="center"}
 :::
 
 
-## Slide Title {background-iframe="https://example.com"}
+::: footer
+Don't know GitHub? Start panicking!   JK.  We'll get there together.
+::: 
+
+
+
 
 
 # Today's Activities {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
@@ -75,17 +95,19 @@ This class will have the following topic sections.
 
 ## To Do Right Now!
 
+First things first!  We need to get everyone configured to have the most up-to-date versions of the software and libraries we are going to start with on this class.
+
 
 ::: {style="text-align: left; margin-top: 1em" .fragment .fade-in-then-semi-out}
 [Install R](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop.
 :::
 
 ::: {style="text-align: left; margin-top: 1em" .fragment .fade-in-then-semi-out}
-[Install RStudio](https://https://www.rstudio.com/){preview-link="true" style="text-align: center"} onto your laptop.
+[Install RStudio](https://www.rstudio.com/){preview-link="true" style="text-align: center"}—the "One True Interface".
 :::
 
 ::: {style="text-align: left; margin-top: 1em" .fragment .fade-in-then-semi-out}
-[Install Packages](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop
+[Install Packages](https://github.com/DyerlabTeaching/Welcome){preview-link="true" style="text-align: center"} that we'll start with (and get a peek at Github).
 :::
 
 
