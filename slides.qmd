@@ -8,7 +8,7 @@ format:
     theme: default
     logo: "media/ces_logo.png"
     chalkboard: true
-editor: visual
+editor: source
 title-slide-attributes: 
   data-background-image: "media/contour.png"
   data-background-position: "right"
@@ -43,7 +43,45 @@ It is not a pipe but oil paint on canvas.
 ![](media/Excel.png){fig-align="center"}
 :::
 
-# Schedule {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
+
+## What is R?
+
+`R` is a *language* for data analysis and manipulation.
+
+::: {.incremental}
+- Based upon S-Plus (Bell Laboratories).
+- Open Source.
+- Collaborative.
+- Community Supported.
+:::
+
+
+## Challenges
+
+Some of the challenges that I've seen individuals face when learning something like `R`.
+
+::: { .incremental } 
+- This **is not** a point-and-click experience.
+- You will have to learn a *grammar*.
+- CASE SENSITIVITY MATTERS!
+:::
+
+
+## Benefits
+
+There are several benefits to larning a *general purpose* analysis framework.
+
+::: {.incremental}
+- No vendor lock-in.
+- Data are data.
+- Transferable skills to other disciplines/problems/issues.
+:::
+
+## And Ultimately...
+
+![](media/world_dominion.jpg)
+
+# Today's Schedule {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
 ## Sections in the Class
 
@@ -101,20 +139,25 @@ First things first! We need to get everyone configured to have the most up-to-da
 [Install Packages](https://github.com/DyerlabTeaching/Welcome){preview-link="true" style="text-align: center"} that we'll start with (and get a peek at Github).
 :::
 
-
 ## Getting Additional Integration
 
-Let's let `quarto` install a few additional things on your machine.  Switch over to the **terminal** in RStudio and type the following (for TeX) 
+Let's let `quarto` install a few additional things on your machine. Switch over to the **terminal** in RStudio and type the following (for TeX)
 
-```
-quarto install tool tinytex
-```
+    quarto install tool tinytex
 
 ::: {.fragment .fade-in}
 And if you do not have a version of Chrome on your laptop, also hit this one to aid in rendering images for `pdf` and `docx` files.
 
-```
-quarto install tool chromium
-```
-
+    quarto install tool chromium
 :::
+
+
+## Loading Default Libraries
+
+I've set up a file for you to source to install 
+
+
+
+# Questions? {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
+
+
