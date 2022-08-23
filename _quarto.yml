@@ -1,0 +1,24 @@
+project:
+  title: "Welcome"
+  output-dir: docs
+
+format:
+  html:
+    toc: true
+    toc-title: Contents
+    toc-location: right
+    html-math-method: katex
+    code-overflow: wrap
+    code-block-border-left: "#31BAE9"
+    citations-hover: true
+    footnotes-hover: true
+    link-external-icon: true
+    self-contained: true
+  revealjs:
+    self-contained: true
+    code-fold: false
+    code-overflow: wrap
+    footer: "[Dyerlab](https://dyerlab.org)"
+  
+
+

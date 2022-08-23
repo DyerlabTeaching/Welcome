@@ -1,28 +1,14 @@
 ![Hey Look, It's Dyer!](https://live.staticflickr.com/65535/51278950913_17e0f63c25_c_d.jpg)
 
-# Welcome
+## Learning Objectives
 
-This repository contains information relative to the logistics of running an Environmental Data Literacy course at the [Center for Environmental Studies](https://ces.vcu.edu) at [Virginia Commonwealth University](https://vcu.edu).
+By the end of this topic, you should have the following:
 
- 
- ## Topics Covered
- 
- - Welcome
- - Github
- - Markdown
- - Data Types
- - Data Containers
- - Tidyverse
- - GGPlot2 
- - Design, Preparation, Analysis, and Interpretation of Analsyes Based Upon:
-    - `Continuous`
-    - `Categorical ~ f( Categorical )`
-    - `Continuous ~ f( Categorical )`
-    - `Continuous ~ f( Continuous )`
-    - `Categorical ~ f( Continuous )`
- - Spatial Data 
-    - Points, Lines, & Polygons
-    - Rasters 
-    - Cartography
-    - Census Data
-    - Raytracing
+- Installed the latest R packages on your computer.
+- Install the latest version of RStudio on your computer.
+- Configure Quarto for making documents.
+- Learn about packages and install some of the most common ones.
+
+## Resources
+
+- Here are the [Slides](https://dyerlabteaching.github.io/Welcome/slides.html) for the welcome presentation.
