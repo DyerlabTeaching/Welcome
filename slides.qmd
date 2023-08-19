@@ -1,12 +1,11 @@
 ---
-title: "Environmental Data Literacy"
+title: "Setting Up The R Analysis Environment"
 subtitle: "&nbsp;"
 author: Rodney Dyer, PhD
 format: 
   revealjs:
     background-transition: fade
     theme: default
-    logo: "media/ces_logo.png"
 editor: source
 title-slide-attributes: 
   data-background-image: "media/contour.png"
@@ -14,9 +13,7 @@ title-slide-attributes:
   data-background-size: initial
 ---
 
-##  {background-color="black" background-image="https://live.staticflickr.com/65535/51278950913_17e0f63c25_c_d.jpg" background-size="fill"}
-
-# Logistics {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
+# Context {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
 ## What is this class {auto-animate="true"}
 
@@ -82,31 +79,8 @@ There are several benefits to larning a *general purpose* analysis framework.
 
 # Today's Schedule {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
 
-## Sections in the Class
 
-This class will have the following topic sections.
-
-::: {.fragment .fade-in-then-semi-out}
-1.  Logistics
-:::
-
-::: {.fragment .fade-in-then-semi-out}
-2.  R, Github, & Becoming a Data Ninja\
-:::
-
-::: {.fragment .fade-in-then-semi-out}
-3.  One Variable Inferences\
-:::
-
-::: {.fragment .fade-in-then-semi-out}
-4.  Analyses of the form `Response ~ f(Predictor)`\
-:::
-
-::: {.fragment .fade-in}
-5.  Spatial Data
-:::
-
-## Homework And Interactions
+## Content Live Here
 
 ::: {layout="[[-1], [1], [-1]]"}
 ![](media/github.png){fig-align="center"}
@@ -120,37 +94,56 @@ Don't know GitHub? Start panicking! JK. We'll get there together.
 
 ## To Do Right Now!
 
+&nbsp;
+
 First things first! We need to get everyone configured to have the most up-to-date versions of the software and libraries we are going to start with on this class.
 
 ::: {.fragment .fade-in-then-semi-out style="text-align: left; margin-top: 1em"}
 [Install R](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop (version 4.2+).
+
+&nbsp;
+
+If you have already installed R on your computer, you need to update it to the latest version.  Please see this [blog post](https://dyerlab.org/posts/2013-06-03-updating-r-and-with-current-libraries/updating-r-and-with-current-libraries.html) **before** you start installing stuff.
 :::
 
-If you already have R on your computer and it is older than the most recent version, see instructions [here](https://dyerlab.org/posts/2013-06-03-updating-r-and-with-current-libraries/updating-r-and-with-current-libraries.html) on how to update the libraries you currently have loaded.
+
+## To Do Right Now!
 
 
-## Continue Doing Right Now
+&nbsp;
 
-::: {.fragment .fade-in-then-semi-out style="text-align: left; margin-top: 1em"}
-[Install RStudio](https://www.rstudio.com/products/rstudio/download/#download){preview-link="true" style="text-align: center"}---the "One True Interface" (2022.07.1+554 or later).
-:::
 
-::: {.fragment .fade-in-then-semi-out style="text-align: left; margin-top: 1em"}
+Next, let's install an integrative developer environment (IDE).
+
+[Install RStudio](https://www.rstudio.com/products/rstudio/download/#download){preview-link="true" style="text-align: center"}---the "One True Interface" (2023.06.1+524 or later).
+
+
+
+## Yet Another "Right Now" activity
+
+&nbsp;
+
 [Install Quarto](https://quarto.org/docs/get-started/){preview-link="true" style="text-align: center"} to help make dynamic documents, webpages, sites, and reports (1.0.38 or later)
-:::
-
-::: {.fragment .fade-in-then-semi-out style="text-align: left; margin-top: 1em"}
-[Install Packages](https://github.com/DyerlabTeaching/Welcome){preview-link="true" style="text-align: center"} that we'll start with (and get a peek at Github).
-:::
 
 
-## GitHub
+## Finally, "Right Now"  {.smaller}
 
-We will be using [GitHub](https://github.com) continuously throughout this class.   
 
-::: {.fragment .fade-in-then-semi-out style="text-align: left; margin-top: 1em"}
-[Install Packages](https://github.com/DyerlabTeaching/Welcome){preview-link="true" style="text-align: center"} that we'll start with (and get a peek at Github).
-:::
+&nbsp;
+
+
+Install Packages that we'll start with.  These are located in my teaching GitHub repository but can be accessed directly from within R.  This will configure some basic packages for you to start with (we will come back to this later).
+
+&nbsp;
+
+```{r}
+#| eval: false 
+#| echo: true
+source("https://raw.githubusercontent.com/DyerlabTeaching/Welcome/main/StartingPackages.R")
+```
+
+
+
 
 ## Getting Additional Integration
 
@@ -163,12 +156,6 @@ And if you do not have a version of Chrome on your laptop, also hit this one to 
 
     quarto install tool chromium
 :::
-
-
-## Loading Default Libraries
-
-I've set up a file for you to source to install 
-
 
 
 # Questions? {background-color="black" background-image="media/contour.png" background-size="initial" background-position="right"}
