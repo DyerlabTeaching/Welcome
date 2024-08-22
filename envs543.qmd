@@ -128,7 +128,7 @@ Don't know GitHub? Start panicking! JK. We'll get there together.
 First things first! We need to get everyone configured to have the most up-to-date versions of the software and libraries we are going to start with on this class.
 
 ::: {.fragment .fade-in-then-semi-out style="text-align: left; margin-top: 1em"}
-[Install R](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop (version 4.2+).
+[Install R](https://cran.r-project.org){preview-link="true" style="text-align: center"} onto your laptop (version 4.3+).
 
 &nbsp;
 
@@ -144,7 +144,7 @@ If you have already installed R on your computer, you need to update it to the l
 
 Next, let's install an integrative developer environment (IDE).
 
-[Install RStudio](https://www.rstudio.com/products/rstudio/download/#download){preview-link="true" style="text-align: center"}---the "One True Interface" (2023.06.1+524 or later).
+[Install RStudio](https://www.rstudio.com/products/rstudio/download/#download){preview-link="true" style="text-align: center"}---the "One True Interface" (`2024.04.2-764` or later).
 
 
 
